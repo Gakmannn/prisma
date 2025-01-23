@@ -1,0 +1,39 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.8.1",
+    "@pinia/nuxt": "^0.5.5",
+    "@prisma/nuxt": "^0.0.35",
+    "busboy": "^1.6.0",
+    "md5": "^2.3.0",
+    "nodemailer": "^6.9.16",
+    "nuxt": "^3.13.0",
+    "nuxt-directus": "^5.7.0",
+    "nuxt-swiper": "^2.0.0",
+    "sass-embedded-win32-x64": "^1.80.6",
+    "sharp": "^0.33.5",
+    "swiper": "^11.1.14",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@prisma/client": "^5.22.0",
+    "@types/busboy": "^1.5.4",
+    "@types/md5": "^2.3.5",
+    "@types/multer": "^1.4.12",
+    "@types/nodemailer": "^6.4.17",
+    "sass-embedded": "^1.80.6"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}
